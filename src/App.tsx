@@ -1,7 +1,11 @@
-import ListGroup from "./components/ListGroup"
+import Like from "./components/Like";
 
 function App() {
-  return <div><ListGroup/></div>
+  return (
+    <div>
+      <Like></Like>
+    </div>
+  );
 }
 
-export default App
+export default App;
