@@ -63,7 +63,7 @@ type FormData = z.infer<typeof schema>;
         </select>
         {errors.category && <p className="text-danger">{errors.category.message}</p>}
       </div>
-      <button  className="btn btn-primary">
+      <button disabled={!isValid} className="btn btn-primary">
         Submit
       </button>
     </form>
