@@ -5,8 +5,8 @@ import NewForm from "./components/TableResult";
 function App() {
   return (
     <div>
-      {/* <Form></Form> */}
-      <NewForm></NewForm>
+      <Form></Form>
+      {/* <NewForm></NewForm> */}
     </div>
   );
 }
