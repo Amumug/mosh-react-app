@@ -1,4 +1,5 @@
 import React from "react";
+import categories from "../categories";
 
 interface Expense {
   id: number;
